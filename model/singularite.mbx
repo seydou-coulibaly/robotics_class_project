@@ -1,0 +1,12 @@
+Constants
+  a = 1;
+  b = 1;
+  l = 3;
+Variables
+  x in [-100,100] ;
+  q in [-100,100] ;
+Constraints
+  (x-a)^2+(q-b)^2 = l^2 ;
+  /* q = b ;
+  x = a ; */
+end

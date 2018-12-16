@@ -1,0 +1,15 @@
+variables 
+
+x in [-1,1];
+y in [-1,1];
+z in [-1,1];
+
+constraints
+
+// sphere
+x^2 + y^2 + z^2 - 1 = 0;
+
+// parabola
+x - y^2 - 4*z^2 + 2 = 0;
+
+end

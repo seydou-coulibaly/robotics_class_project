@@ -1,0 +1,17 @@
+Constants
+  a1 = 0 ;
+  a2 = 0 ;
+
+
+
+Variables
+  q1 in [0,pi] ;
+  q2 in [0,100];
+
+  x1 in [-100,100];
+  x2 in [0,100];
+
+Constraints
+  (a1+q2)*cos(q1) -a2*sin(q1)-x1 = 0;
+  (a1+q2)*sin(q1) -a2*cos(q1)-x2 = 0;
+end

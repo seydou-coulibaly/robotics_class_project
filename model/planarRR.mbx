@@ -1,0 +1,38 @@
+Constants
+  l1 = 1 ;
+  l2 = 1 ;
+  // question 1
+  /* q1 = 1;
+  q2 = 1; */
+
+
+  // question 2
+  /* x1 = 1;
+  x2 = 1; */
+/*
+  x1 = 1;
+  x2 = 0; */
+
+  // question 3
+/*
+  x1 = 2;
+  x2 = 2; */
+
+
+Variables
+  //  question 1
+  /* x1 in [-100,100] ;
+  x2 in [-100,100] ; */
+
+
+  //  question 2,3
+  q1 in [-pi,pi] ;
+  q2 in [-pi,pi] ;
+
+  x1 in [-100,100];
+  x2 in [-100,100];
+
+Constraints
+  x1 = l1*cos(q1) + l2*cos(q2+q1) ;
+  x2 = l1*sin(q1) + l2*sin(q2+q1) ;
+end

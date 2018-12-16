@@ -1,0 +1,11 @@
+Constants
+  r1 = 2;
+  r2 = 2;
+Variables
+  x in [-100,100] ;
+  y in [-100,100] ;
+Constraints
+  /* x^2+y^2<=1; */
+  (x-1)^2+y^2 = r1^2 ;
+  (x+1)^2+y^2 = r2^2 ;
+end

@@ -1,0 +1,34 @@
+Constants
+  a11 = -1 ;
+  a12 = 0 ;
+
+  a21 = 1 ;
+  a22 = 0 ;
+
+
+  // question 1
+  /* x1 = 1;
+  x2 = 1; */
+
+  // question 2
+  /* l1 = 2;
+  l2 = 2; */
+
+  // question 2
+  /* l1 = 0.7;
+  l2 = 1.2; */
+
+
+Variables
+  //  question 1
+  l1 in [0,10^3] ;
+  l2 in [0,10^3] ;
+
+  //  question 1
+  x1 in [-100,100] ;
+  x2 in [-100,100] ;
+
+Constraints
+  l1^2 = (x1-a11)^2 + (x2-a12)^2 ;
+  l2^2 = (x1-a21)^2 + (x2-a22)^2 ;
+end
